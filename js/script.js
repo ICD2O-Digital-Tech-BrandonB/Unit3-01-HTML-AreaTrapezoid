@@ -16,7 +16,7 @@ function calculateArea() {
   
 
   //calculates area of trapezoid
-    let areaofTrapezoid = sideA + sideB / 2 * sideH;
+    let areaofTrapezoid = (sideA + sideB) / 2 * sideH;
 
   // output that displays the area of trapezoid.
     document.getElementById("area-trapezoid").innerHTML = "The area of the trapezoid is: " + areaofTrapezoid.toFixed(1) + " cm²";
